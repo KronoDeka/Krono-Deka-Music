@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krono Deka Music</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabecera -->
+  <header>
+    <h1>Krono Deka Music</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#musica">Música</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección Inicio -->
+  <section id="inicio" class="seccion-inicio">
+    <h2>Bienvenido a Krono Deka Music</h2>
+    <p>Explora nuestros beats, ritmos y sonidos modernos.</p>
+    <button onclick="alert('¡Nuevas canciones pronto!')">Próximas canciones</button>
+  </section>
+
+  <!-- Sección Música -->
+  <section id="musica" class="seccion-musica">
+    <h2>Nuestra Música</h2>
+    <div class="slider">
+      <div class="cancion activo">Canción 1</div>
+      <div class="cancion">Canción 2</div>
+      <div class="cancion">Canción 3</div>
+    </div>
+    <button onclick="anterior()">Anterior</button>
+    <button onclick="siguiente()">Siguiente</button>
+  </section>
+
+  <!-- Sección Galería -->
+  <section id="galeria" class="seccion-galeria">
+    <h2>Galería</h2>
+    <div class="imagenes">
+      <img src="https://via.placeholder.com/200x150" alt="Imagen 1">
+      <img src="https://via.placeholder.com/200x150" alt="Imagen 2">
+      <img src="https://via.placeholder.com/200x150" alt="Imagen 3">
+    </div>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto" class="seccion-contacto">
+    <h2>Contacto</h2>
+    <p>Email: contacto@kronodeka.com</p>
+    <p>Instagram: @KronoDekaMusic</p>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2026 Krono Deka Music</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
